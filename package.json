@@ -1,0 +1,19 @@
+{
+  "name": "uhost",
+  "version": "0.1.0",
+  "description": "Web Hosting service",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indranil94/uHost.git"
+  },
+  "author": "Indranil Santra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Indranil94/uHost/issues"
+  },
+  "homepage": "https://github.com/Indranil94/uHost#readme"
+}
