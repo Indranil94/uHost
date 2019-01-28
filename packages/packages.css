@@ -1,0 +1,38 @@
+main {
+	text-align: left;
+}
+
+.main-section {
+	border: 3px black solid;
+	width: 80%;
+	margin: 40px 0;
+	padding: 36px;
+	background-color: rgba(25,150,25,0.3);
+}
+
+.main-section__premium {
+	background-color: green;
+}
+
+.plans {
+	text-decoration: none;
+}
+
+.plan-name {
+	color: black;
+}
+
+.plan-name_premium{
+	color: white;
+}
+
+.plan-highlight {
+	color: grey;
+}
+
+.plan-description{
+	border: 1.5px green solid;
+	background-color: white;
+	color: black;
+	padding: 8px;
+}
