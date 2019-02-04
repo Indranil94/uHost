@@ -12,7 +12,8 @@ body {
     padding: 6px;
     background: #009E1A;
     width: 100%;
-    height: 100%;
+    top:0;
+    position: fixed;
 }
 
 .heading {

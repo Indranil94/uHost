@@ -3,10 +3,17 @@ main {
 }
 
 .main-section {
-	border: 3px black solid;
 	width: 80%;
 	margin: 40px 0;
-	padding: 36px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-right-color: black;
+	border-right-style: solid;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-top-width: : 3px;
+	border-right-width: : 3px;
+	border-bottom-width: : 3px;
 	background-color: rgba(25,150,25,0.3);
 }
 
@@ -16,8 +23,40 @@ main {
 
 .plans {
 	text-decoration: none;
+	padding: 36px;
+	display: block;
 }
 
+.main-section:hover {
+	border-color: red;
+	box-shadow: 5px 5px grey;
+}
+
+.main-section__second {
+	float: right;
+	
+	width: 80%;
+	margin: 40px 0;
+	border-top-color: black;
+	border-top-style: solid;
+	border-left-color: black;
+	border-left-style: solid;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-top-width: : 3px;
+	border-left-width: : 3px;
+	border-bottom-width: : 3px;
+	background-color: rgba(25,150,25,0.3);
+}
+
+.main-section__second:hover {
+	border-color: red;
+	box-shadow: -5px 5px grey;
+}
+
+.clear-fix {
+	clear: both;
+}
 .plan-name {
 	color: black;
 }
